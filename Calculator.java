@@ -8,7 +8,19 @@ public class Calculator {
         System.out.println("Multiplication "+(a*b));
         System.out.println("Division "+(a/b));
 
-    
+        // Calculate square root
+        System.out.println("Square root of a: " + Math.sqrt(a));
+        System.out.println("Square root of b: " + Math.sqrt(b));
+
+        // Calculate cube root
+        System.out.println("Cube root of a: " + Math.cbrt(a));
+        System.out.println("Cube root of b: " + Math.cbrt(b));
+
+        // Calculate power (a^b and b^a)
+        System.out.println("a raised to the power b: " + Math.pow(a, b));
+        System.out.println("b raised to the power a: " + Math.pow(b, a));
+
+
     }
 }
 
